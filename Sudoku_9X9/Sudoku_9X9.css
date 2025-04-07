@@ -1,0 +1,1272 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9BB0C1;
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.clear {
+    text-align: center;
+    margin: 20px 0 0 20px;
+    height: 50px;
+    width: 120px;
+    background: skyblue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    line-height: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+}
+
+.home {
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+    background: wheat;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 3%;
+    line-height: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    z-index: 99;
+}
+
+.notif {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    height: 20px;
+    width: auto;
+    text-align: center;
+    color: rgb(34, 3, 3);
+    visibility: hidden;
+}
+
+.solve {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background: pink;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 50px;
+    border: solid black 3px;
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+
+.box {
+    margin: auto;
+    height: 382px;
+    width: 382px;
+    background: whitesmoke;
+    position: relative;
+    top: 3%;
+    border: solid rgb(48, 47, 47) 5px;
+    border-radius: 10px;
+    display: grid;
+    grid: 'box-a box-b box-c'
+        'box-d box-e box-f'
+        'box-g box-h box-i';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-a {
+    grid-area: box-a;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    border-top-left-radius: 10px;
+    display: grid;
+    grid: 'box-a1 box-a2 box-a3'
+        'box-a4 box-a5 box-a6'
+        'box-a7 box-a8 box-a9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-a1 {
+    grid-area: box-a1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a2 {
+    grid-area: box-a2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a3 {
+    grid-area: box-a3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a4 {
+    grid-area: box-a4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a5 {
+    grid-area: box-a5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a6 {
+    grid-area: box-a6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a7 {
+    grid-area: box-a7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a8 {
+    grid-area: box-a8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-a9 {
+    grid-area: box-a9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b {
+    grid-area: box-b;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    display: grid;
+    grid: 'box-b1 box-b2 box-b3'
+        'box-b4 box-b5 box-b6'
+        'box-b7 box-b8 box-b9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-b1 {
+    grid-area: box-b1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b2 {
+    grid-area: box-b2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b3 {
+    grid-area: box-b3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b4 {
+    grid-area: box-b4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b5 {
+    grid-area: box-b5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b6 {
+    grid-area: box-b6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b7 {
+    grid-area: box-b7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b8 {
+    grid-area: box-b8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-b9 {
+    grid-area: box-b9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c {
+    grid-area: box-c;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    border-top-right-radius: 10px;
+    display: grid;
+    grid: 'box-c1 box-c2 box-c3'
+        'box-c4 box-c5 box-c6'
+        'box-c7 box-c8 box-c9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-c1 {
+    grid-area: box-c1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c2 {
+    grid-area: box-c2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c3 {
+    grid-area: box-c3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 5px;
+}
+
+.box-c4 {
+    grid-area: box-c4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c5 {
+    grid-area: box-c5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c6 {
+    grid-area: box-c6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c7 {
+    grid-area: box-c7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c8 {
+    grid-area: box-c8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-c9 {
+    grid-area: box-c9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d {
+    grid-area: box-d;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    display: grid;
+    grid: 'box-d1 box-d2 box-d3'
+        'box-d4 box-d5 box-d6'
+        'box-d7 box-d8 box-d9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-d1 {
+    grid-area: box-d1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d2 {
+    grid-area: box-d2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d3 {
+    grid-area: box-d3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d4 {
+    grid-area: box-d4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d5 {
+    grid-area: box-d5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d6 {
+    grid-area: box-d6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d7 {
+    grid-area: box-d7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d8 {
+    grid-area: box-d8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-d9 {
+    grid-area: box-d9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e {
+    grid-area: box-e;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    display: grid;
+    grid: 'box-e1 box-e2 box-e3'
+        'box-e4 box-e5 box-e6'
+        'box-e7 box-e8 box-e9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-e1 {
+    grid-area: box-e1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e2 {
+    grid-area: box-e2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e3 {
+    grid-area: box-e3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e4 {
+    grid-area: box-e4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e5 {
+    grid-area: box-e5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e6 {
+    grid-area: box-e6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e7 {
+    grid-area: box-e7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e8 {
+    grid-area: box-e8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-e9 {
+    grid-area: box-e9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f {
+    grid-area: box-f;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    display: grid;
+    grid: 'box-f1 box-f2 box-f3'
+        'box-f4 box-f5 box-f6'
+        'box-f7 box-f8 box-f9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-f1 {
+    grid-area: box-f1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f2 {
+    grid-area: box-f2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f3 {
+    grid-area: box-f3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f4 {
+    grid-area: box-f4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f5 {
+    grid-area: box-f5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f6 {
+    grid-area: box-f6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f7 {
+    grid-area: box-f7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f8 {
+    grid-area: box-f8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-f9 {
+    grid-area: box-f9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g {
+    grid-area: box-g;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom-left-radius: 10px;
+    display: grid;
+    grid: 'box-g1 box-g2 box-g3'
+        'box-g4 box-g5 box-g6'
+        'box-g7 box-g8 box-g9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-g1 {
+    grid-area: box-g1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g2 {
+    grid-area: box-g2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g3 {
+    grid-area: box-g3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g4 {
+    grid-area: box-g4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g5 {
+    grid-area: box-g5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g6 {
+    grid-area: box-g6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g7 {
+    grid-area: box-g7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-bottom-left-radius: 5px;
+}
+
+.box-g8 {
+    grid-area: box-g8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-g9 {
+    grid-area: box-g9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h {
+    grid-area: box-h;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    display: grid;
+    grid: 'box-h1 box-h2 box-h3'
+        'box-h4 box-h5 box-h6'
+        'box-h7 box-h8 box-h9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-h1 {
+    grid-area: box-h1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h2 {
+    grid-area: box-h2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h3 {
+    grid-area: box-h3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h4 {
+    grid-area: box-h4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h5 {
+    grid-area: box-h5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h6 {
+    grid-area: box-h6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h7 {
+    grid-area: box-h7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h8 {
+    grid-area: box-h8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-h9 {
+    grid-area: box-h9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i {
+    grid-area: box-i;
+    background: whitesmoke;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid: 'box-i1 box-i2 box-i3'
+        'box-i4 box-i5 box-i6'
+        'box-i7 box-i8 box-i9';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-i1 {
+    grid-area: box-i1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i2 {
+    grid-area: box-i2;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i3 {
+    grid-area: box-i3;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i4 {
+    grid-area: box-i4;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i5 {
+    grid-area: box-i5;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i6 {
+    grid-area: box-i6;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i7 {
+    grid-area: box-i7;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i8 {
+    grid-area: box-i8;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.box-i9 {
+    grid-area: box-i9;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-bottom-right-radius: 5px;
+}
+
+.keyboard {
+    height: 145px;
+    width: 120px;
+    padding-top: 5px;
+    padding-left: 8px;
+    background: grey;
+    border: solid rgb(48, 47, 47) 2px;
+    border-radius: 10px;
+    margin: auto;
+    display: grid;
+    grid: 'one-key two-key three-key' 'four-key five-key six-key' 'seven-key eight-key nine-key' 'del-key del-key del-key';
+    position: relative;
+    top: 7%;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.one-key {
+    grid-area: one-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.two-key {
+    grid-area: two-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.three-key {
+    grid-area: three-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.four-key {
+    grid-area: four-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.five-key {
+    grid-area: five-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.six-key {
+    grid-area: six-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.seven-key {
+    grid-area: seven-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.eight-key {
+    grid-area: eight-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.nine-key {
+    grid-area: nine-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+
+.del-key {
+    grid-area: del-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    width: 110px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        top: 15%;
+    }
+
+    .notif {
+        position: relative;
+        top: 12%;
+    }
+
+    .solve {
+        top: 17%;
+    }
+
+    .keyboard {
+        top: 19%;
+    }
+}

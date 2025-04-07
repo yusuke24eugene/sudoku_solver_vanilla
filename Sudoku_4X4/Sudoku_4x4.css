@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9BB0C1;
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.clear {
+    text-align: center;
+    margin: 20px 0 0 20px;
+    height: 50px;
+    width: 120px;
+    background: skyblue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    line-height: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    z-index: 99;
+}
+
+.home {
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+    background: wheat;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 3%;
+    line-height: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    z-index: 99;
+}
+
+.notif {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    height: 20px;
+    width: auto;
+    text-align: center;
+    color: rgb(34, 3, 3);
+    visibility: hidden;
+    z-index: 98;
+}
+
+.box {
+    margin: auto;
+    height: 368px;
+    width: 368px;
+    background: whitesmoke;
+    position: relative;
+    top: 5%;
+    border: solid rgb(48, 47, 47) 5px;
+    border-radius: 10px;
+    display: grid;
+    gap: 0;
+    justify-content: center;
+    grid: 'box-a box-b' 'box-c box-d';
+}
+
+.box-a {
+    grid-area: box-a;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    border-top-left-radius: 10px;
+    display: grid;
+    grid: 'box-a1 box-a2' 'box-a3 box-a4';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-a1 {
+    grid-area: box-a1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-a2 {
+    grid-area: box-a2;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-a3 {
+    grid-area: box-a3;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-a4 {
+    grid-area: box-a4;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-b {
+    grid-area: box-b;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 5px;
+    border-top-right-radius: 10px;
+    display: grid;
+    grid: 'box-b1 box-b2' 'box-b3 box-b4';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-b1 {
+    grid-area: box-b1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-b2 {
+    grid-area: box-b2;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-b3 {
+    grid-area: box-b3;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-b4 {
+    grid-area: box-b4;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-c {
+    grid-area: box-c;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 5px;
+    border-bottom-left-radius: 10px;
+    display: grid;
+    grid: 'box-c1 box-c2' 'box-c3 box-c4';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-c1 {
+    grid-area: box-c1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-c2 {
+    grid-area: box-c2;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-c3 {
+    grid-area: box-c3;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-c4 {
+    grid-area: box-c4;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-d {
+    grid-area: box-d;
+    background: whitesmoke;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid: 'box-d1 box-d2' 'box-d3 box-d4';
+    gap: 0;
+    justify-content: center;
+}
+
+.box-d1 {
+    grid-area: box-d1;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-d2 {
+    grid-area: box-d2;
+    background: whitesmoke;
+    border-bottom: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-d3 {
+    grid-area: box-d3;
+    background: whitesmoke;
+    border-right: solid rgb(48, 47, 47) 2px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.box-d4 {
+    grid-area: box-d4;
+    background: whitesmoke;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    font-size: 4em;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+}
+
+.solve {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background: pink;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 50px;
+    border: solid black 3px;
+    margin: auto;
+    position: relative;
+    top: 7%;
+}
+
+.keyboard {
+    height: 80px;
+    width: 150px;
+    background: grey;
+    border: solid rgb(48, 47, 47) 2px;
+    border-radius: 10px;
+    display: grid;
+    grid: 'one-key two-key del-key' 'three-key four-key del-key';
+    visibility: hidden;
+    margin: auto;
+    position: relative;
+    top: 9%;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+
+.one-key {
+    grid-area: one-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    border: solid rgb(48, 47, 47) 2px;
+}
+
+.two-key {
+    grid-area: two-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    border: solid rgb(48, 47, 47) 2px;
+}
+
+.three-key {
+    grid-area: three-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    border: solid rgb(48, 47, 47) 2px;
+}
+
+.four-key {
+    grid-area: four-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    border: solid rgb(48, 47, 47) 2px;
+}
+
+.del-key {
+    grid-area: del-key;
+    background: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    line-height: 70px;
+    height: 70px;
+    width: 50px;
+    border-radius: 3px;
+    border: solid rgb(48, 47, 47) 2px;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        top: 15%;
+    }
+
+    .notif {
+        position: relative;
+        top: 12%;
+    }
+
+    .solve {
+        top: 16%;
+    }
+
+    .keyboard {
+        top: 17%
+    }
+}
