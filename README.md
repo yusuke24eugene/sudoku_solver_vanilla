@@ -20,3 +20,7 @@ A Sudoku solver built with vanilla JavaScript, CSS, and HTML.
 - Vanilla JavaScript (no frameworks or libraries)
 - Plain CSS for styling
 - Semantic HTML5
+
+One of my first hobby project using Vanilla Javascript - No Frameworks.
+Sudoku Solver that solves almost all Sudoku problems.
+Basic HTML, Vanilla CSS and Vanilla Javascript.
